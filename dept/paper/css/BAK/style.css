@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+top page
+------------------------------------------------------------*/
+
+.contents_area ul li {
+  border-bottom: 1px solid #000;
+}
+
+.contents_area ul li.first {
+  border-top: 1px solid #000;
+}
+
+
+.contents_area ul li a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.contents_area .paper_link {
+  margin: 40px 0 0;
+}
+
+#start_area {
+	padding: 40px 0 20px;
+}
+/* #sns_area */
+
+#sns_area { margin-bottom: 2em }
+#sns_area ul { margin: 0 auto; overflow: hidden; width: 52.2%; zoom: 1 }
+#sns_area li { float: left; margin-right: 11.75%; width: 25.5% }
+#sns_area li.last { margin-right: 0 }
+
+@media screen and (max-width:768px){
+  .contents_area .paper_link {
+    margin: 5% 0 0;
+  }
+}
+

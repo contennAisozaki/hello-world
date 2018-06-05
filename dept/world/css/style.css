@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+top page
+------------------------------------------------------------*/
+
+.contents_area {
+  padding: 0 0 30px;
+  position: relative;
+  padding-top: 70px;
+  margin-top: -70px;
+}
+
+.contents_area .inner:before {
+  background: url(../img/bg_section_01.png) left center repeat-x;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  left: 4%;
+  top: -5px;
+  width: 92%;
+}
+
+.contents_area.last .inner:after {
+  background: url(../img/bg_section_01.png) left center repeat-x;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 5px;
+  position: absolute;
+  left: 4%;
+  bottom: 0;
+  width: 92%;
+}
+
+.contents_area .top_text {
+  font-size: 1.4rem;
+  line-height:1.714;
+  margin-top: 2%;
+}
+
+.contents_area .link_article {
+  display: block;
+}
+
+.contents_area dl {
+  background: #f7f7f7;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-top: 3%;
+  padding: 3%;
+}
+
+.contents_area dl dt {
+  border-bottom: 1px solid #000;
+  font-size: 1.6rem;
+  line-height:1.2;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.contents_area dl dd .left,
+.contents_area dl dd .right {
+  display: table-cell;
+  padding: 4% 0;
+}
+
+.contents_area dl dd .left {
+  vertical-align: top;
+  padding-right: 2%;
+  width: 20%;
+}
+
+.contents_area dl dd .right {
+  vertical-align: top;
+  width: 80%;
+}
+
+.contents_area dl dd .right .title {
+  color: #993300;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.0008em;
+  line-height:1.4;
+}
+
+.contents_area dl dd .right .text {
+  font-size: 1.2rem;
+  letter-spacing: -0.0008em;
+  line-height:1.714;
+  margin-top: 2%;
+}
+
+@media screen and (max-width:768px){
+  .contents_area .inner:before {
+/*    background: url(../img/bg_section_01.png) left center repeat-x;
+    background-size: 5px 2px;*/
+  }
+}
+
+#start_area {
+	padding: 40px 0 20px;
+}
+/* #sns_area */
+
+#sns_area { margin-bottom: 2em }
+#sns_area ul { margin: 0 auto; overflow: hidden; width: 52.2%; zoom: 1 }
+#sns_area li { float: left; margin-right: 11.75%; width: 25.5% }
+#sns_area li.last { margin-right: 0 }
+
+
+/* start_area のかわり */
+#mainvisual {
+  padding-bottom: 40px;
+}
+
+
+@media screen and (max-width:768px){
+  .contents_area .paper_link {
+    margin: 5% 0 0;
+  }
+}

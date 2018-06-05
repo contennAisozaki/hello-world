@@ -1,0 +1,274 @@
+@charset "UTF-8";
+/*------------------------------------------------------------
+top page
+------------------------------------------------------------*/
+
+.ttl_top {
+  text-align: center;
+}
+
+.img_reserve {
+  text-align: center;
+  margin: 25px auto 0;
+  width: 23.28%;
+}
+
+/* #sns_area */
+
+#sns_area { margin-bottom: 2em }
+#sns_area ul { margin: 0 auto; overflow: hidden; width: 52.2%; zoom: 1 }
+#sns_area li { float: left; margin-right: 11.75%; width: 25.5% }
+#sns_area li.last { margin-right: 0 }
+
+/* #start_area */
+
+#start_area {
+  background: url(../img/start_bg_01.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+#start_area ul.start_list {
+  margin-top: 30px;
+}
+
+#start_area ul.start_list li{
+  margin-top: 10px;
+  width: 48.8%;
+}
+
+#start_area ul.start_list li.left{
+  float: left;
+}
+
+#start_area ul.start_list li.right{
+  float: right;
+}
+
+#start_area .start_gallery + .detail_area {
+  margin-top: 50px;
+}
+
+@media screen and (max-width:768px){
+  #start_area .start_gallery + .detail_area {
+    margin-top: 8%;
+  }
+}
+
+
+
+/* #floorguide_area */
+
+#floorguide_area {
+  background: #d8e6af;
+  padding: 10% 0;
+}
+
+/* #floor_area */
+#floor_area {
+  padding: 10% 0;
+}
+
+.world_list ul.wide li dl.detail dd.min_font {
+  letter-spacing: -0.16rem;
+}
+
+/* #staff_area */
+#staff_area {
+  background: #f6f6ef;
+  padding: 10% 0;
+}
+
+#staff_area .img {
+  margin-top: 5%;
+}
+
+#staff_area .staff {
+  margin-top: 3%;
+}
+
+#staff_area .staff_over {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#staff_area .staff li {
+  float: left;
+  margin-right: 1%;
+  width: 24.2%;
+}
+
+#staff_area .staff li.last {
+  margin-right: 0;
+}
+
+#staff_area .staff_under {
+  margin-top: 25px;
+}
+
+/* #event_area */
+#event_area {
+  background: url(../img/event_bg_01.jpg) no-repeat top center;
+  background: none;
+  background-color: #d6e6dc;
+  background-size: cover;
+  /*color: #fff;*/
+  color: #333;
+  padding: 7% 0;
+}
+
+/* #digitalpamphlet_area */
+#digitalpamphlet_area {
+  background: #d8e6af;
+  padding: 7% 0;
+}
+
+#digitalpamphlet_area li .detail{
+  font-size: 14px;
+}
+
+#digitalpamphlet_area li .digitalpamphlet_title {
+  color: #009a53;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+/* #access_area */
+#access_area {
+  background: url(../img/access_bg_01.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  padding: 7% 0;
+}
+
+
+/*------------------------------------------------------------
+teaser page
+------------------------------------------------------------*/
+
+.teaser #mainvisual {
+  background: url(../common/img/teaser_bg_01.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 55% 0;
+  width: 100%;
+}
+
+
+/*------------------------------------------------------------
+area padding
+------------------------------------------------------------*/
+
+#start_area, #floorguide_area, #floor_area, #staff_area, #event_area, #digitalpamphlet_area, #access_area, #information_area {
+  padding: 50px 0;
+}
+
+@media screen and (max-width:768px){
+  #start_area, #floorguide_area, #floor_area, #staff_area, #event_area, #digitalpamphlet_area, #access_area, #information_area {
+    padding: 8% 0;
+  }
+}
+
+
+#campaign_area{
+  padding: 0 0 50px 0;
+}
+
+@media screen and (max-width:768px){
+  #campaign_area {
+    padding: 0 0 8% 0;
+  }
+}
+
+
+/*------------------------------------------------------------
+accordion style
+------------------------------------------------------------*/
+.acd {
+  margin: 30px 0;
+}
+
+.acd dl dd {
+  background: #f6f6ef;
+  padding: 6%;
+}
+
+.acd dl dd ul li {
+  margin-top: 0;
+}
+
+.acd dl dd ul li .name {
+  border-bottom: 1px solid #c8c8c8;
+  font-size: 1.6rem;
+  padding: 20px 10% 20px 0;
+  position: relative;
+}
+
+.acd dl dd ul li .name .sns_icon {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+}
+
+.acd dl dd ul li .name .sns_icon span {
+  display: inline-block;
+  width: 45px;
+  height:45px;
+  vertical-align: middle;
+}
+
+.acd dl dd ul li .name .sns_icon span + span {
+  margin-left: 3px;
+}
+
+.acd dl dd ul li .txt {
+  margin-top: 10px;
+}
+
+.acd dl dd .close_btn {
+  cursor: pointer;
+  margin: 7% 0 2%;
+}
+
+.hide_area {
+  margin-top: 7%;
+}
+
+@media screen and (max-width:768px){
+  .acd {
+    margin: 7% 0;
+  }
+  .acd dl dd ul li .name {
+    font-size: 1.4rem;
+    padding: 15px 10% 15px 0;
+  }
+  .acd dl dd ul li .name.double {
+    padding: 15px 25% 15px 0;
+  }
+
+}
+
+@media screen and (max-width:1025px) {
+  .acd dl dd ul li .name .sns_icon span {
+    width: 74%;
+    height:10%;
+    vertical-align: middle;
+  }
+  .acd dl dd ul li .name.double .sns_icon span {
+    display: inline-block;
+    width: 36%;
+    height:10%;
+    vertical-align: middle;
+  }
+
+  .acd dl dd ul li .name .sns_icon span + span {
+    margin-left: 3px;
+  }
+}
